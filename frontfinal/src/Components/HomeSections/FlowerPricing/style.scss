@@ -1,0 +1,48 @@
+.flowerPricing{
+    width: 100%;
+    min-height: 1300px;
+    background-image: url(https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1-1-1085x595.jpg);
+    &__container{
+        width: 55%;
+        min-height: 1300px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &__title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 50px;
+        color: #0c5b47;
+
+        &__name{
+            font-size: 46px;
+        }
+        }
+
+        &__cardsBox{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            &__card{
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            color: #1b745e;
+            img{
+                width: 330px;
+            }
+            h2{
+                font-size: 24px;
+                font-weight: 400;
+            }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.addPage{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__container{
+        width: 250px;
+        height: 300px;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        form{
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+    }
+    }
+}
